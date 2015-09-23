@@ -1,113 +1,297 @@
 ********************************************************************************
 *                             Initializing Cubiquity                           *
 ********************************************************************************
-[12:37:09, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensColoredCubes.vdb'
-[12:38:39, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensColoredCubes.vdb'
-[12:38:59, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[12:38:59, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensColoredCubes.vdb'
-[12:39:01, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
-[12:39:05, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
-[12:49:48, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[12:49:48, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
-[12:49:59, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/2d-simplex-noise-1002507180.vdb'
-[12:50:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[12:50:17, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/2d-simplex-noise-418364086.vdb'
-[12:50:23, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[12:50:47, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/AppData/Local/Temp/DefaultCompany/Evolcraft/5658CF87.vdb'
-[12:50:49, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[12:50:51, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/AppData/Local/Temp/DefaultCompany/Evolcraft/47D0C325.vdb'
-[12:51:09, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[12:51:09, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/AppData/Local/Temp/DefaultCompany/Evolcraft/17BBAA95.vdb'
-[12:51:17, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[12:51:17, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/AppData/Local/Temp/DefaultCompany/Evolcraft/163234EB.vdb'
-[12:51:22, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[12:51:23, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/AppData/Local/Temp/DefaultCompany/Evolcraft/1659E82B.vdb'
-[12:51:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[12:51:59, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/AppData/Local/Temp/DefaultCompany/Evolcraft/43E30D40.vdb'
-[12:52:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[12:52:01, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/ImportedFromHeightmap.vdb'
-[12:53:18, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/ImportedCity.vdb'
-[12:54:46, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Planet.vdb'
-[12:54:46, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Planet.vdb'
-[12:54:51, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Planet.vdb'
-[12:54:51, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Planet.vdb'
-[12:56:00, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Planet.vdb'
-[12:56:00, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Planet.vdb'
-[12:56:05, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/SmallSphere.vdb'
-[12:56:08, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/SmallSphere.vdb'
-[12:56:27, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[12:56:27, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/SmallSphere.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[12:56:45, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
-[13:15:50, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/Unity/Evolcraft/Evolcraft 1-0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/Tests/MengerSponge.vdb'
+[21:25:16, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/37062DC1.vdb'
+[21:25:16, Error  ]: Cannot compute the log of zero.
+[21:25:16, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot compute the log of zero."
+[21:31:10, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
+[21:31:50, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/4CC1F826.vdb'
+[21:31:50, Error  ]: Cannot compute the log of zero.
+[21:31:50, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot compute the log of zero."
+[21:32:27, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/5410DD18.vdb'
+[21:33:25, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:38:28, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[21:38:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:40:33, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:40:59, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:42:06, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:42:12, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:42:18, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:42:27, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:43:05, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:43:35, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:43:46, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:44:00, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:45:47, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:48:04, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:48:08, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:48:24, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:48:54, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:49:22, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:50:16, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:50:44, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:50:48, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:51:32, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:51:49, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:51:57, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:53:02, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:55:25, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[21:55:34, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:01:48, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:01:59, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:02:10, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:06:32, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:14:27, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:26:19, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:26:23, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:26:43, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:32:53, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:32:54, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:33:01, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:33:22, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:33:27, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:34:02, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:35:31, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:35:35, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:37:18, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:37:22, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:37:51, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:37:54, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:38:24, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:38:28, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:38:57, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:38:58, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:39:28, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:39:33, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:39:38, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:40:09, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:40:11, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[22:40:16, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:07:49, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:08:00, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:08:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:08:03, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:08:06, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:08:33, Error  ]: Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb) already exists
+[23:08:33, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb) already exists"
+[23:08:33, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:08:52, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:08:54, Error  ]: Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb) already exists
+[23:08:54, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb) already exists"
+[23:08:54, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:09:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:09:52, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:09:54, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:09:55, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:12:38, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:13:41, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:13:50, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:13:53, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:13:53, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:14:25, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:15:19, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:15:27, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:15:30, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:18:48, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:20:12, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:21:00, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:21:04, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:21:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:21:04, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:24:39, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:24:39, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:24:44, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:25:20, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:25:20, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:25:21, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:26:09, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:28:14, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:28:15, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:29:10, Error  ]: Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb) already exists
+[23:29:10, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb) already exists"
+[23:29:27, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:29:27, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:30:57, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:30:58, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:32:22, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:32:23, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:34:46, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:34:46, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:36:56, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:36:57, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:38:32, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:40:16, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:40:53, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:41:02, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:41:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:41:03, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:52:49, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[23:52:50, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:56:04, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[23:56:38, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[00:02:32, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:02:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[00:05:36, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:05:37, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[00:07:33, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:07:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[00:10:05, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:10:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[00:10:49, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:10:49, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[00:12:50, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:12:51, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[00:13:48, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[00:15:19, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:15:19, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[00:15:38, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[00:19:32, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:19:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[00:22:07, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:22:08, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[00:24:15, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:24:16, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[00:26:10, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[00:26:11, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[08:14:14, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[08:14:14, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:14:55, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[12:14:55, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:19:46, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[12:19:47, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:19:51, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[12:19:52, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:21:45, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[12:21:46, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:21:49, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[12:21:50, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:26:29, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[12:26:29, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:26:33, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[12:26:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:26:38, Error  ]: Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb) already exists
+[12:26:38, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb) already exists"
+[12:28:15, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[12:28:16, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:28:25, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[12:28:26, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:32:48, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[12:32:48, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:33:31, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[12:33:32, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:48:23, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[13:48:23, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:48:43, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[13:48:44, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:51:55, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[13:51:56, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:52:00, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[13:52:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:55:36, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[13:55:36, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[13:55:38, Error  ]: Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb) already exists
+[13:55:38, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb) already exists"
+[13:55:51, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[13:55:51, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:55:59, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[13:56:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:59:09, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[13:59:10, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:59:15, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[13:59:16, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:59:26, Error  ]: Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb) already exists
+[13:59:26, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb) already exists"
+[14:01:12, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[14:01:12, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:01:17, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[14:01:17, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:03:23, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#2.vdb'
+[14:03:24, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:03:51, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#3.vdb'
+[14:03:51, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:04:53, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#4.vdb'
+[14:04:54, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:05:17, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#5.vdb'
+[14:05:17, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:07:07, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[14:07:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:07:17, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/1#0#0.vdb'
+[14:07:17, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:07:42, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#-1.vdb'
+[14:07:42, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:09:55, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[14:09:55, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:10:04, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[14:10:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:10:13, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/-1#0#0.vdb'
+[14:10:14, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:10:24, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/1#0#0.vdb'
+[14:10:24, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:12:26, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#-1.vdb'
+[14:12:26, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:12:42, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/1#0#-1.vdb'
+[14:12:43, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:13:33, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/1#0#-2.vdb'
+[14:13:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:14:08, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#-2.vdb'
+[14:14:08, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:14:25, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/2#0#-2.vdb'
+[14:14:25, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:14:33, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/2#0#-1.vdb'
+[14:14:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:30:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[15:30:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/2#0#-1.vdb'
+[15:30:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/1#0#0.vdb'
+[15:30:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/2#0#-2.vdb'
+[15:30:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/1#0#-2.vdb'
+[15:30:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#-2.vdb'
+[15:30:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/1#0#-1.vdb'
+[15:30:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#-1.vdb'
+[15:30:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[15:30:30, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/-1#0#0.vdb'
+[15:30:41, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[15:30:50, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:32:45, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[15:32:55, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:38:59, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[15:39:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:39:34, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[15:39:37, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:44:18, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[15:44:19, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:44:22, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[15:44:22, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:50:48, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#-1.vdb'
+[15:50:49, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:50:56, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/1#0#0.vdb'
+[15:50:56, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:51:03, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/-1#0#0.vdb'
+[15:51:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:42:35, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#0.vdb'
+[13:42:35, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:42:42, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#1.vdb'
+[13:42:42, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:42:46, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/0#0#2.vdb'
+[13:42:47, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:42:53, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/1#0#1.vdb'
+[13:42:53, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:43:00, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/-1#0#1.vdb'
+[13:43:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:43:05, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MundoPrueba/-2#0#1.vdb'
+[13:43:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:47:27, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[13:53:23, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/Jaffet/0#0#0.vdb'
+[13:53:23, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:53:23, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/02E36E97.vdb'
+[13:54:04, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/Jaffet/1#0#0.vdb'
+[13:54:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:08:42, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/Jaffet/2#0#0.vdb'
+[14:08:43, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:10:39, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/Jaffet/1#-1#0.vdb'
+[14:10:39, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:10:42, Info   ]: Creating empty voxel database as 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/Jaffet/1#-2#0.vdb'
+[14:10:43, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
 ********************************************************************************
 *                             Shutting down Cubiquity                          *
 ********************************************************************************

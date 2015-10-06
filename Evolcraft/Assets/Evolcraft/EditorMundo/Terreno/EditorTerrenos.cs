@@ -9,7 +9,6 @@ using System;
 
 public class EditorTerrenos : MonoBehaviour {
 
-    //aun falta la serializacion
     enum DIRECCIONES
     {
         ADELANTE,
@@ -24,14 +23,21 @@ public class EditorTerrenos : MonoBehaviour {
 	enum ESTADO
 	{
 		CREAR_BALDOSAS,
-		DEFORMAR_BALDOSAS
+		MODIFICAR_BALDOSAS
 	};
 
 	enum HERRAMIENTA
 	{
 		ESCULPIR,
 		ALISAR,
-		PINTAR
+		PINTAR,
+		CAVAR
+	};
+
+	enum FORMA_CAVAR
+	{
+		CUBO,
+		ESFERA
 	};
 
 	//Estado Editor
@@ -41,11 +47,10 @@ public class EditorTerrenos : MonoBehaviour {
     int Profundidad  = 100;
     int Altura       = 32;
     int Ancho        = 100;
+
     //Prefab
     public GameObject VoxelPrefab;
-	//Este voxel prefab debe tener dos hijos:
-	//El primero con TerrainVolume...
-	//El segundo es un cubo
+	//Este voxel prefab debe tener dos hijos: (1) Los componentes de un Voxel (2)Un cubo
 
 
     //Variables Mapa
@@ -63,13 +68,15 @@ public class EditorTerrenos : MonoBehaviour {
 	//Modificar baldosas
 	HERRAMIENTA	HerramientaActual = HERRAMIENTA.ESCULPIR;
 	const int NroBrochas = 5;
-	int BrochaSeleccionada = 0;
-    float RadioExternoBrocha = 5.0f;
-    float OpacidadBrocha = 1.0f;
+	int BrochaSeleccionada = 0; //De 0 a NroBrochas, influira en FactorEscalaInternoBrocha 
+    float RadioExternoBrocha = 5.0f; //Determinara el tamaño del area
+    float RadioInternoBrocha; //Determinara que tan "cilindrico" 
+    float FactorEscalaInternoBrocha; //Depende de la brocha seleccionada, determinará el radio interno
+    float OpacidadBrocha = 1.0f; //Se puede entender como "intensidad"
 
-	float FactorEscalaInternoBrocha;
-	float RadioInternoBrocha;
-	int TexturaSeleccionada = 2;
+	int TexturaSeleccionada = 2;//Esto deberia ser un enum...?
+
+	FORMA_CAVAR FormaCavar = FORMA_CAVAR.CUBO;
 
 	Vector3 PosicionPreviaMouse;
 
@@ -83,7 +90,7 @@ public class EditorTerrenos : MonoBehaviour {
         VoxelBase.transform.GetChild(1).Translate(Ancho/2, (float)(0.1*Altura), Profundidad/2); 
 
         VoxelBase.transform.position = new Vector3(0,0,0);
-		
+
 	    MapaVoxels.Add(VoxelBase.name, VoxelBase);
 	    VoxelActual = VoxelBase;
 	    ClaveActual = VoxelBase.name;
@@ -92,7 +99,7 @@ public class EditorTerrenos : MonoBehaviour {
 		//Modificar baldosas
 		PosicionPreviaMouse = new Vector3 (0, 0, 0);
 		FactorEscalaInternoBrocha = (float)BrochaSeleccionada / ((float)(NroBrochas - 1));
-		RadioInternoBrocha = RadioExternoBrocha * FactorEscalaInternoBrocha;//Cuando se cambie alguno...
+		RadioInternoBrocha = RadioExternoBrocha * FactorEscalaInternoBrocha;//Esto debe actualizarse al cambiar el radioexterno
 	}
 	
     bool CrearVoxel(float px, float py, float pz, string pnombre)
@@ -163,67 +170,120 @@ public class EditorTerrenos : MonoBehaviour {
     }
     void Update()
     {
-		if (Input.GetMouseButtonDown(0))
-        {
-			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-			RaycastHit hit;
+        TerrainVolume VolumenVoxelActual = VoxelActual.transform.GetChild(0).GetComponent<TerrainVolume>();
+        
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        PickSurfaceResult DatosRaycast;
 
-			if (Physics.Raycast(ray, out hit))
-			{
-				if(hit.collider != null){
-					if(EstadoEditor == ESTADO.CREAR_BALDOSAS){
-						if(hit.collider.gameObject.name == "Centro")
-						{
-							ActualizarVoxelActual(hit);
-							AgregarVoxel();
-						}
-					}else if(EstadoEditor == ESTADO.DEFORMAR_BALDOSAS)
-					{
-                        TerrainVolume VolumenVoxelActual = VoxelActual.transform.GetChild(0).GetComponent<TerrainVolume>();
+        bool Choco = Physics.Raycast(ray, out hit);
+        bool ChocoVoxel = Picking.PickSurface(VolumenVoxelActual, ray.origin, ray.direction, 1000.0f, out DatosRaycast);
 
-						if(hit.collider.gameObject.name == "Centro")
-						{
-							VolumenVoxelActual.data.CommitChanges();
-							ActualizarVoxelActual(hit);
+		if (Input.GetMouseButtonDown (0)) {
+			if (EstadoEditor == ESTADO.CREAR_BALDOSAS) {
+				if (Choco) {
+					if (hit.collider.gameObject.name == "Centro") {
+						ActualizarVoxelActual (hit);
+						AgregarVoxel ();
+					}
+				}
+			} else if (EstadoEditor == ESTADO.MODIFICAR_BALDOSAS) {
+				if (Choco) {
+					if (hit.collider.gameObject.name == "Centro") {
+						VolumenVoxelActual.data.CommitChanges ();
+						ActualizarVoxelActual (hit);
+					} else if (ChocoVoxel) {
+						if (HerramientaActual == HERRAMIENTA.CAVAR) {
+							CavarVoxel (VolumenVoxelActual, (int)DatosRaycast.volumeSpacePos.x, (int)DatosRaycast.volumeSpacePos.y, (int)DatosRaycast.volumeSpacePos.z, (int)RadioExternoBrocha); //Este radioexterno deberia ser otra variable...
 						}
 					}
 				}
 			}
-		}else if(Input.GetMouseButtonDown(0) || (Input.GetMouseButton(0) && (Input.mousePosition != PosicionPreviaMouse))){
-			if(EstadoEditor == ESTADO.DEFORMAR_BALDOSAS)
-			{
-				TerrainVolume VolumenVoxelActual = VoxelActual.transform.GetChild(0).GetComponent<TerrainVolume>();
-				Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-				PickSurfaceResult DatosRaycast;
-				bool Choco = Picking.PickSurface(VolumenVoxelActual, ray.origin, ray.direction, 1000.0f, out DatosRaycast);
-				if(Choco)
-				{
+		} else if (Input.GetMouseButtonDown (0) || (Input.GetMouseButton (0) && (Input.mousePosition != PosicionPreviaMouse))) {
+			if (EstadoEditor == ESTADO.MODIFICAR_BALDOSAS) {
+				if (ChocoVoxel) {
 					PosicionPreviaMouse = Input.mousePosition;
-					ModificarVoxel(VolumenVoxelActual,DatosRaycast);
+					ModificarVoxel (VolumenVoxelActual, DatosRaycast);
 				}
 
+			}
+		} else if (Input.GetKeyDown (KeyCode.Q)) {
+			if (EstadoEditor == ESTADO.MODIFICAR_BALDOSAS && (HerramientaActual != HERRAMIENTA.CAVAR )) {
+				if(BrochaSeleccionada > 0){
+                    BrochaSeleccionada--;
+                    Debug.Log("Brocha: "+BrochaSeleccionada);
+                    FactorEscalaInternoBrocha = (float)BrochaSeleccionada / ((float)(NroBrochas - 1));
+                    RadioInternoBrocha = RadioExternoBrocha * FactorEscalaInternoBrocha;
+				}
+			}
+		} else if (Input.GetKeyDown (KeyCode.W)) {
+			if (EstadoEditor == ESTADO.MODIFICAR_BALDOSAS && (HerramientaActual != HERRAMIENTA.CAVAR )) {
+				if(BrochaSeleccionada < NroBrochas-1){
+                    BrochaSeleccionada++;
+                    Debug.Log("Brocha: "+BrochaSeleccionada);
+                    FactorEscalaInternoBrocha = (float)BrochaSeleccionada / ((float)(NroBrochas - 1));
+                    RadioInternoBrocha = RadioExternoBrocha * FactorEscalaInternoBrocha;
+				}
+			}
+		} else if (Input.GetKeyDown (KeyCode.A)) {
+			if (EstadoEditor == ESTADO.MODIFICAR_BALDOSAS && (HerramientaActual != HERRAMIENTA.CAVAR ) ) {
+				if(OpacidadBrocha > 0){
+					OpacidadBrocha--;
+				}
+			}
+		} else if (Input.GetKeyDown (KeyCode.S)) {
+			if (EstadoEditor == ESTADO.MODIFICAR_BALDOSAS && (HerramientaActual != HERRAMIENTA.CAVAR )) {
+				OpacidadBrocha++; //No estoy seguro si hay algun limite
+			}
+		}else if(Input.GetKeyDown(KeyCode.Z)){
+			if(EstadoEditor == ESTADO.MODIFICAR_BALDOSAS){
+				if(RadioExternoBrocha >0){
+					RadioExternoBrocha--;
+                    RadioInternoBrocha = RadioExternoBrocha * FactorEscalaInternoBrocha;
+				}
+			}
+		}else if(Input.GetKeyDown(KeyCode.X)){
+			if(EstadoEditor == ESTADO.MODIFICAR_BALDOSAS){
+				RadioExternoBrocha++;
+                RadioInternoBrocha = RadioExternoBrocha * FactorEscalaInternoBrocha;
+			}
+		}else if(Input.GetKeyDown(KeyCode.C)){
+			if(EstadoEditor == ESTADO.MODIFICAR_BALDOSAS){
+				if(HerramientaActual == HERRAMIENTA.CAVAR){
+					FormaCavar = FORMA_CAVAR.CUBO;
+				}
+			}
+		}else if(Input.GetKeyDown(KeyCode.E)){
+			if(EstadoEditor == ESTADO.MODIFICAR_BALDOSAS){
+				if(HerramientaActual == HERRAMIENTA.CAVAR){
+					FormaCavar = FORMA_CAVAR.ESFERA;
+				}
 			}
 		}
 		else if(Input.GetKeyDown(KeyCode.Alpha1)){ //Todos estos deberian funcionar en determinado estado
 			if(EstadoEditor == ESTADO.CREAR_BALDOSAS){
 				Lado = DIRECCIONES.ADELANTE;
-			}else if(EstadoEditor == ESTADO.DEFORMAR_BALDOSAS){
+			}else if(EstadoEditor == ESTADO.MODIFICAR_BALDOSAS){
 				HerramientaActual = HERRAMIENTA.ESCULPIR;
 			}
 		}else if(Input.GetKeyDown(KeyCode.Alpha2)){
 			if(EstadoEditor == ESTADO.CREAR_BALDOSAS){
 				Lado = DIRECCIONES.ATRAS;
-			}else if(EstadoEditor == ESTADO.DEFORMAR_BALDOSAS){
+			}else if(EstadoEditor == ESTADO.MODIFICAR_BALDOSAS){
 				HerramientaActual = HERRAMIENTA.ALISAR;
 			}
 		}else if(Input.GetKeyDown(KeyCode.Alpha3)){
 			if(EstadoEditor == ESTADO.CREAR_BALDOSAS){
 	            Lado = DIRECCIONES.ARRIBA;
-			}else if(EstadoEditor == ESTADO.DEFORMAR_BALDOSAS){
+			}else if(EstadoEditor == ESTADO.MODIFICAR_BALDOSAS){
 				HerramientaActual = HERRAMIENTA.PINTAR;
 			}
 		}else if(Input.GetKeyDown(KeyCode.Alpha4)){
-            Lado = DIRECCIONES.ABAJO;
+			if(EstadoEditor == ESTADO.CREAR_BALDOSAS){
+				Lado = DIRECCIONES.ABAJO;
+			}else if(EstadoEditor == ESTADO.MODIFICAR_BALDOSAS){
+				HerramientaActual = HERRAMIENTA.CAVAR;
+			}
 		}else if(Input.GetKeyDown(KeyCode.Alpha5)){
             Lado = DIRECCIONES.IZQUIERDA;
 		}else if(Input.GetKeyDown(KeyCode.Alpha6)){
@@ -231,7 +291,7 @@ public class EditorTerrenos : MonoBehaviour {
 		}else if(Input.GetKeyDown(KeyCode.F1)){
 			EstadoEditor = ESTADO.CREAR_BALDOSAS;
 		}else if(Input.GetKeyDown(KeyCode.F2)){
-			EstadoEditor = ESTADO.DEFORMAR_BALDOSAS;
+			EstadoEditor = ESTADO.MODIFICAR_BALDOSAS;
 		}
     }
 
@@ -287,20 +347,55 @@ public class EditorTerrenos : MonoBehaviour {
 		
 		switch(HerramientaActual)
 		{
-		case HERRAMIENTA.ESCULPIR:
-			TerrainVolumeEditor.SculptTerrainVolume(VolumenVoxelActual, DatosRaycast.volumeSpacePos.x, DatosRaycast.volumeSpacePos.y, DatosRaycast.volumeSpacePos.z, RadioInternoBrocha, RadioExternoBrocha, OpacidadBrocha);
-			break;
-		case HERRAMIENTA.ALISAR:
-			TerrainVolumeEditor.BlurTerrainVolume(VolumenVoxelActual, DatosRaycast.volumeSpacePos.x, DatosRaycast.volumeSpacePos.y, DatosRaycast.volumeSpacePos.z, RadioInternoBrocha, RadioExternoBrocha, OpacidadBrocha);
-			break;
-		case HERRAMIENTA.PINTAR:
-			TerrainVolumeEditor.PaintTerrainVolume(VolumenVoxelActual, DatosRaycast.volumeSpacePos.x, DatosRaycast.volumeSpacePos.y, DatosRaycast.volumeSpacePos.z, RadioInternoBrocha, RadioExternoBrocha, OpacidadBrocha,(uint)TexturaSeleccionada);						
-			break;
+			case HERRAMIENTA.ESCULPIR:
+				TerrainVolumeEditor.SculptTerrainVolume(VolumenVoxelActual, DatosRaycast.volumeSpacePos.x, DatosRaycast.volumeSpacePos.y, DatosRaycast.volumeSpacePos.z, RadioInternoBrocha, RadioExternoBrocha, OpacidadBrocha);
+				break;
+			case HERRAMIENTA.ALISAR:
+				TerrainVolumeEditor.BlurTerrainVolume(VolumenVoxelActual, DatosRaycast.volumeSpacePos.x, DatosRaycast.volumeSpacePos.y, DatosRaycast.volumeSpacePos.z, RadioInternoBrocha, RadioExternoBrocha, OpacidadBrocha);
+				break;
+			case HERRAMIENTA.PINTAR:
+				TerrainVolumeEditor.PaintTerrainVolume(VolumenVoxelActual, DatosRaycast.volumeSpacePos.x, DatosRaycast.volumeSpacePos.y, DatosRaycast.volumeSpacePos.z, RadioInternoBrocha, RadioExternoBrocha, OpacidadBrocha,(uint)TexturaSeleccionada);						
+				break;
 		}
 		VolumenVoxelActual.ForceUpdate();
-
 	}
 
+	void CavarVoxel(TerrainVolume VolumenTerreno, int xPos, int yPos, int zPos, int rango)
+	{
+		// Initialise outside the loop, but we'll use it later.
+		int rangoCuadrado = rango * rango;
+		MaterialSet MaterialSetVacio = new MaterialSet();
+		
+		// Iterage over every voxel in a cubic region defined by the received position (the center) and
+		// the range. It is quite possible that this will be hundreds or even thousands of voxels.
+		for(int z = zPos - rango; z < zPos + rango; z++) 
+		{
+			for(int y = yPos - rango; y < yPos + rango; y++)
+			{
+				for(int x = xPos - rango; x < xPos + rango; x++)
+				{			
+					// Compute the distance from the current voxel to the center of our explosion.
+					int xDistancia = x - xPos;
+					int yDistancia = y - yPos;
+					int zDistancia = z - zPos;
+					
+					// Working with squared distancias avoids costly square root operations.
+					int distSquared = xDistancia * xDistancia + yDistancia * yDistancia + zDistancia * zDistancia;
+					
+					if(FormaCavar == FORMA_CAVAR.CUBO){
+						VolumenTerreno.data.SetVoxel(x, y, z, MaterialSetVacio);
+					}else if(FormaCavar == FORMA_CAVAR.ESFERA){
+						if(distSquared < rangoCuadrado)
+						{	
+							VolumenTerreno.data.SetVoxel(x, y, z, MaterialSetVacio);
+						}
+					}
+				}
+			}
+		}
+
+		TerrainVolumeEditor.BlurTerrainVolume(VolumenTerreno, new Region(xPos - rango, yPos - rango, zPos - rango, xPos + rango, yPos + rango, zPos + rango));
+	}
 }
 
 

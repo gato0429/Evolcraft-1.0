@@ -1,125 +1,74 @@
 ********************************************************************************
 *                             Initializing Cubiquity                           *
 ********************************************************************************
-[13:33:33, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[13:34:00, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[13:34:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[13:34:59, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[13:46:47, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[13:46:57, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[13:46:58, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[13:47:01, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#2.vdb'
-[13:47:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[13:47:08, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#3.vdb'
-[13:47:08, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[13:49:04, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[13:49:08, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[13:49:08, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[13:49:14, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#2.vdb'
-[13:49:14, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[13:49:54, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[13:49:55, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[13:49:55, Error  ]: Encountered 'unable to open database file' (error code 14) when executing 'sqlite3_open_v2(pathToExistingVoxelDatabase.c_str(), &(voxelDatabase->mDatabase), flags, NULL)'
-[13:49:55, Error  ]: Caught 'DatabaseError' at C interface. Message reads: "Encountered 'unable to open database file' (error code 14) when executing 'sqlite3_open_v2(pathToExistingVoxelDatabase.c_str(), &(voxelDatabase->mDatabase), flags, NULL)'"
-[13:49:55, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#2.vdb'
-[13:49:55, Error  ]: Encountered 'unable to open database file' (error code 14) when executing 'sqlite3_open_v2(pathToExistingVoxelDatabase.c_str(), &(voxelDatabase->mDatabase), flags, NULL)'
-[13:49:55, Error  ]: Caught 'DatabaseError' at C interface. Message reads: "Encountered 'unable to open database file' (error code 14) when executing 'sqlite3_open_v2(pathToExistingVoxelDatabase.c_str(), &(voxelDatabase->mDatabase), flags, NULL)'"
-[13:50:03, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[13:50:05, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[13:50:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[13:50:11, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#2.vdb'
-[13:50:11, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[13:54:03, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#2.vdb'
-[13:54:03, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[13:54:03, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[13:54:14, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[13:54:23, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[13:54:24, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:20:06, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[14:20:17, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[14:20:17, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:20:22, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#2.vdb'
-[14:20:23, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:24:27, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[14:24:38, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[14:24:39, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:25:12, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:25:42, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[14:26:24, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:27:03, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[14:27:06, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[14:27:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:27:29, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:27:48, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[14:28:11, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[14:28:26, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:28:30, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[14:28:45, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[14:28:46, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:29:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:29:30, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[14:29:56, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[14:29:56, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:30:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:30:12, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[14:30:40, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[14:30:46, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[14:30:47, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:31:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[14:31:09, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:01:09, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:01:27, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[21:01:27, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:01:32, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#2.vdb'
-[21:01:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:06:28, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:06:31, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[21:06:31, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:06:36, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#2.vdb'
-[21:06:36, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:19:48, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:19:57, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[21:19:57, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:20:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:24:50, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[21:24:50, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:24:54, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:33:37, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:37:35, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:37:39, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:37:53, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[21:37:53, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:38:31, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:51:04, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:51:10, Error  ]: Cannot create a new voxel database as the provided filename (C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb) already exists
-[21:51:10, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot create a new voxel database as the provided filename (C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb) already exists"
-[21:51:18, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:51:21, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[21:51:21, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:51:46, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:52:43, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[21:52:54, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[21:52:54, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[21:53:19, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[22:14:07, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[22:14:17, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[22:14:17, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[22:19:29, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[22:29:40, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[22:29:51, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[22:30:09, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
-[22:30:19, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
-[22:30:20, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[22:30:28, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#-1.vdb'
-[22:30:28, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[22:30:35, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#-1#-1.vdb'
-[22:30:36, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[22:31:00, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#1#-1.vdb'
-[22:31:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[22:31:09, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/-1#0#-1.vdb'
-[22:31:10, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[22:31:15, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/1#0#-1.vdb'
-[22:31:16, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:22:28, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[13:34:37, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:36:28, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[13:36:47, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[13:36:47, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:37:55, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:48:54, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[13:48:58, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[13:48:58, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[13:49:45, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:08:46, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[14:08:58, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[14:08:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:27:47, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:27:49, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[14:27:49, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[14:27:54, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[14:28:13, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[14:28:13, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:28:50, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:24:39, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[15:24:57, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[15:24:58, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:25:33, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[15:25:33, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[15:25:39, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[15:25:51, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[15:25:51, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:25:54, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#2.vdb'
+[15:25:54, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:37:00, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[15:41:48, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[15:44:28, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:44:31, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[15:47:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:47:05, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[15:50:47, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[15:51:11, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[15:51:51, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:25:03, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:25:12, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[16:25:13, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[16:26:51, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[16:26:56, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:26:57, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[16:27:06, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:27:06, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[16:28:12, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[16:28:14, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:28:14, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[16:33:29, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:39:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[16:39:07, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:42:18, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:42:18, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[16:43:05, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:43:15, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:43:57, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[16:52:21, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:52:25, Info   ]: Creating empty voxel database as 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#1.vdb'
+[16:52:25, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[16:53:14, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[16:53:17, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:54:17, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[16:54:20, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:55:44, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[16:55:48, Info   ]: Creating voxel database from 'C:/CS-UCSP/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb'
+[16:59:50, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
 ********************************************************************************
 *                             Shutting down Cubiquity                          *
 ********************************************************************************

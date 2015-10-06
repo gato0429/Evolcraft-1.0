@@ -326,6 +326,7 @@ namespace Cubiquity
 							{
 								multiplier  = -1.0f;
 							}
+							Debug.Log("X: " + pickResult.volumeSpacePos.x +"Y: " + pickResult.volumeSpacePos.y + "Z:"+pickResult.volumeSpacePos.z);
 							TerrainVolumeEditor.SculptTerrainVolume(terrainVolume, pickResult.volumeSpacePos.x, pickResult.volumeSpacePos.y, pickResult.volumeSpacePos.z, brushInnerRadius, brushOuterRadius, brushOpacity * multiplier);
 						}
 						else if(smoothPressed)

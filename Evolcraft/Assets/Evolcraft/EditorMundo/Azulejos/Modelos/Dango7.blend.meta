@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: b940e68a69d025b41858597e26ecdd13
+timeCreated: 1443875665
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: BrazoDer1
+    100004: BrazoDer2
+    100006: BrazoDer3
+    100008: BrazoIzq1
+    100010: BrazoIzq2
+    100012: BrazoIzq3
+    100014: Cabeza
+    100016: Columna
+    100018: Cuerpo
+    100020: Cuerpo_MeshPart0
+    100022: Cuerpo_MeshPart1
+    100024: //RootNode
+    100026: HombroDer
+    100028: HombroIzq
+    100030: Manos
+    100032: Ojos
+    100034: PieDer1
+    100036: PieDer2
+    100038: PieDer3
+    100040: PieIzq1
+    100042: PieIzq2
+    100044: PieIzq3
+    100046: PiernaDer
+    100048: PiernaIzq
+    100050: Piernas
+    400000: Armature
+    400002: BrazoDer1
+    400004: BrazoDer2
+    400006: BrazoDer3
+    400008: BrazoIzq1
+    400010: BrazoIzq2
+    400012: BrazoIzq3
+    400014: Cabeza
+    400016: Columna
+    400018: Cuerpo
+    400020: Cuerpo_MeshPart0
+    400022: Cuerpo_MeshPart1
+    400024: //RootNode
+    400026: HombroDer
+    400028: HombroIzq
+    400030: Manos
+    400032: Ojos
+    400034: PieDer1
+    400036: PieDer2
+    400038: PieDer3
+    400040: PieIzq1
+    400042: PieIzq2
+    400044: PieIzq3
+    400046: PiernaDer
+    400048: PiernaIzq
+    400050: Piernas
+    4300000: Cuerpo_MeshPart0
+    4300002: Cuerpo_MeshPart1
+    4300004: Ojos
+    4300006: Manos
+    4300008: Piernas
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Cuerpo_MeshPart0
+    13700002: Cuerpo_MeshPart1
+    13700004: Manos
+    13700006: Ojos
+    13700008: Piernas
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

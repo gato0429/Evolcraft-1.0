@@ -1,13 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Cubiquity;
 using Cubiquity.Impl;
 using UnityEditor;
+
 using System.Linq;
 using System.Collections.Generic;
 using System;
+using Cubiquity; 
 
-public class EditorTerrenos : MonoBehaviour {
+public class EditorTerrenos : MonoBehaviour
+{
 
     //aun falta la serializacion
     enum DIRECCIONES
@@ -52,7 +54,9 @@ public class EditorTerrenos : MonoBehaviour {
     {
         
         //Creacion del voxel la db
+        
         TerrainVolumeData volumeData = VolumeData.CreateEmptyVolumeData<TerrainVolumeData>(new Region(0, 0, 0, Ancho - 1, Altura - 1, Profundidad - 1), @DirectorioLocal + NombreMapa+"/"+pnombre + ".vdb");
+            
         MaterialSet materialSet = new MaterialSet();
 
         double DifAltura = Altura - Altura * 0.9;

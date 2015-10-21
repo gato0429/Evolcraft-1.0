@@ -10,3 +10,15 @@
 [14:46:19, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
 [14:46:42, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
 [14:46:47, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
+[15:24:33, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
+[18:47:43, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
+[18:52:24, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
+[18:52:46, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
+[18:55:36, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
+[18:56:55, Info   ]: Creating voxel database from 'C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensTerrain.vdb'
+[13:13:36, Error  ]: Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb) already exists
+[13:13:36, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb) already exists"
+[14:51:56, Error  ]: Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb) already exists
+[14:51:56, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb) already exists"
+[16:03:49, Error  ]: Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb) already exists
+[16:03:49, Error  ]: Caught 'invalid_argument' at C interface. Message reads: "Cannot create a new voxel database as the provided filename (C:/Users/JosueCc/Documents/GitHub/Evolcraft-1.0/Evolcraft/Assets/Evolcraft/EditorMundo/Mapas/MapaDemo/0#0#0.vdb) already exists"

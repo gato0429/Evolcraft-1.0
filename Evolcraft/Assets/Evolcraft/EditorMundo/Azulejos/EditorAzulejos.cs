@@ -11,9 +11,13 @@ using Cubiquity;
 public class EditorAzulejos : MonoBehaviour {
 
 
-    private Dictionary<string, List<Nucleo> > MapaVegetales;
-	// Use this for initialization
-	void Start () {
+    private Dictionary<string, List<Nucleo> >   MapaVegetales;  //nombre del vegetal 
+    private Dictionary<string, List<Nucleo> >   MapaAnimales;
+    private Dictionary<string, List<Nucleo> >   MapaPersonajes;
+
+
+    // Use this for initialization
+    void Start () {
 	
 	}
 	
